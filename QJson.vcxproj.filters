@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="qjson">
+      <UniqueIdentifier>{f9099424-1d93-4380-a21e-23115e52a91f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="qjson\exception">
+      <UniqueIdentifier>{430aa9fe-03c8-4aa1-8f0d-31f4e51f1e80}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="qjson\Array.cpp">
+      <Filter>qjson</Filter>
+    </ClCompile>
+    <ClCompile Include="qjson\False.cpp">
+      <Filter>qjson</Filter>
+    </ClCompile>
+    <ClCompile Include="qjson\Null.cpp">
+      <Filter>qjson</Filter>
+    </ClCompile>
+    <ClCompile Include="qjson\Number.cpp">
+      <Filter>qjson</Filter>
+    </ClCompile>
+    <ClCompile Include="qjson\Object.cpp">
+      <Filter>qjson</Filter>
+    </ClCompile>
+    <ClCompile Include="qjson\Pair.cpp">
+      <Filter>qjson</Filter>
+    </ClCompile>
+    <ClCompile Include="qjson\String.cpp">
+      <Filter>qjson</Filter>
+    </ClCompile>
+    <ClCompile Include="qjson\True.cpp">
+      <Filter>qjson</Filter>
+    </ClCompile>
+    <ClCompile Include="qjson\Value.cpp">
+      <Filter>qjson</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="qjson\Array.h">
+      <Filter>qjson</Filter>
+    </ClInclude>
+    <ClInclude Include="qjson\exception\Exception.h">
+      <Filter>qjson</Filter>
+    </ClInclude>
+    <ClInclude Include="qjson\False.h">
+      <Filter>qjson</Filter>
+    </ClInclude>
+    <ClInclude Include="qjson\exception\InvalidCast.h">
+      <Filter>qjson</Filter>
+    </ClInclude>
+    <ClInclude Include="qjson\IteratorTemplate.h">
+      <Filter>qjson</Filter>
+    </ClInclude>
+    <ClInclude Include="qjson\exception\NotImplemented.h">
+      <Filter>qjson</Filter>
+    </ClInclude>
+    <ClInclude Include="qjson\Null.h">
+      <Filter>qjson</Filter>
+    </ClInclude>
+    <ClInclude Include="qjson\Number.h">
+      <Filter>qjson</Filter>
+    </ClInclude>
+    <ClInclude Include="qjson\Object.h">
+      <Filter>qjson</Filter>
+    </ClInclude>
+    <ClInclude Include="qjson\exception\OutOfRange.h">
+      <Filter>qjson</Filter>
+    </ClInclude>
+    <ClInclude Include="qjson\Pair.h">
+      <Filter>qjson</Filter>
+    </ClInclude>
+    <ClInclude Include="qjson\QJson.h">
+      <Filter>qjson</Filter>
+    </ClInclude>
+    <ClInclude Include="qjson\String.h">
+      <Filter>qjson</Filter>
+    </ClInclude>
+    <ClInclude Include="qjson\True.h">
+      <Filter>qjson</Filter>
+    </ClInclude>
+    <ClInclude Include="qjson\Value.h">
+      <Filter>qjson</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
