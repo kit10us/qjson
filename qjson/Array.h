@@ -50,7 +50,7 @@ namespace qjson
 
 			const Value & operator*()
 			{
-				return m_array[ m_index ];
+				return m_array[ (int)m_index ];
 			}
 
 		private:
