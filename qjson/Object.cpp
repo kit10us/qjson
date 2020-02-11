@@ -3,6 +3,7 @@
 #include <algorithm>
 #include <qjson/exception/Exception.h>
 #include <qjson/exception/InvalidCast.h>
+#include <stdexcept>
 #include <cassert>
 
 
