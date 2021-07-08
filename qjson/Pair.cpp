@@ -74,7 +74,7 @@ Pair::Pair( std::string name, std::string value )
 
 Pair::Pair( std::string name, const char * value )
 	: m_name( name )
-	, m_value( std::make_shared< String >( std::string( value ) ) )
+	, m_value{ std::make_shared< String >(std::string(value)) }
 {
 }
 
@@ -102,6 +102,13 @@ Pair::Pair( std::string name, bool value )
 		m_value = std::make_shared< False >();
 	}
 }
+
+Pair::Pair(std::string name, nullptr_t)
+	: m_name{ name }
+	, m_value{ std::make_shared< Null >() }
+{
+}
+
 
 std::string Pair::GetName() const
 {

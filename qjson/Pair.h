@@ -43,6 +43,7 @@ namespace qjson
 		Pair( std::string name, int value );
 		Pair( std::string name, double value );
 		Pair( std::string name, bool value );
+		Pair(std::string name, nullptr_t);
 
 		virtual ~Pair() {}
 

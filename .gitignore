@@ -1,2 +1,5 @@
 /*.db
 /*.user
+/lib
+/intermediate
+/.vs
